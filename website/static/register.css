@@ -1,5 +1,9 @@
 /* register.css */
 body {
+    background-image: url('./img/BG2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-size: 1.2em; /* Increase the font size */
 }
 

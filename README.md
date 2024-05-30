@@ -21,3 +21,15 @@ This is a full-stack web application built with Flask and Python where users can
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Site look like this:
+
+![](./website/static/img/welcome.PNG)
+
+![](./website/static/img/login.PNG)
+
+![](./website/static/img/register.PNG)
+
+![](./website/static/img/app.PNG)
+
+![](./website/static/img/submit_new.PNG)

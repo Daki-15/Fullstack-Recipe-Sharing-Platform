@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-size: 1.2em; /* Increase the font size */
+    color: azure;
 }
 
 .center {

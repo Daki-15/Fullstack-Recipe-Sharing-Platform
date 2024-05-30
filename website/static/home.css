@@ -1,0 +1,57 @@
+body {
+    background-image: url('./img/Login_SingUpBG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1.2em; /* Increase the font size */
+}
+
+h1 {
+    margin-bottom: 20px; /* Add space below the title */
+    text-align: center;
+    color: aliceblue;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+}
+
+.submit-button {
+    display: inline-block;
+    margin-top: 10px; /* Add space above the button */
+    padding: 10px 20px;
+    border-radius: 12px; /* Make the button rounded */
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out; /* Add a transition for the hover effect */
+}
+
+.submit-button:hover {
+    background-color: #ddd; /* Change the button color on hover */
+    color: black;
+    cursor: pointer; /* Change the cursor on hover */
+}
+
+.navbar {
+    overflow: hidden;
+    text-align: right; /* Add this line */
+}
+
+.navbar a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+

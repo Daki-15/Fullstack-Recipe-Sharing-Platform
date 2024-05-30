@@ -1,0 +1,31 @@
+/* submit.css */
+body {
+    font-size: 1.2em; /* Increase the font size */
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+}
+
+h1 {
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+input[type="text"], textarea {
+    margin-bottom: 10px; /* Add space below the input fields */
+}
+
+input[type="submit"] {
+    margin-top: 10px; /* Add space above the button */
+    border-radius: 12px; /* Make the button rounded */
+    transition: all 0.3s ease-in-out; /* Add a transition for the hover effect */
+}
+
+input[type="submit"]:hover {
+    background-color: #ddd; /* Change the button color on hover */
+    cursor: pointer; /* Change the cursor on hover */
+}

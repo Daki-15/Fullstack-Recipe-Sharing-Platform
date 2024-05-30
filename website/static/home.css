@@ -1,5 +1,5 @@
 body {
-    background-image: url('./img/Login_SingUpBG.jpg');
+    background-image: url('./img/BG2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -14,10 +14,23 @@ h1 {
 
 .center {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust as needed */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recipe-box {
+    width: 45%;
+    color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform .2s;
+}
+
+.recipe-box:hover {
+    transform: scale(1.05);
 }
 
 .submit-button {
